@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id="@+id/settings_main"
+    android:padding="0dp"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button_settings_back"
+            android:padding="4dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#ffffff"
+            app:icon="@drawable/baseline_arrow_back_24"
+            app:iconTint="#1A1B22"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/text_settings"
+            android:padding="4dp"
+            android:layout_width="208dp"
+            android:layout_height="48dp"
+            android:gravity="start"
+            android:text="Настройки"
+            android:textColor="#1A1B22"
+            android:textSize="25sp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="24dp">
+        
+        <TextView
+            android:id="@+id/text_darkmode"
+            android:layout_width="300dp"
+            android:layout_height="61dp"
+            android:gravity="center_vertical"
+            android:text="Темная тема"
+            android:textColor="#1A1B22"
+            android:textSize="15sp"
+            android:layout_marginLeft="16dp"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            />
+        
+        <Switch
+            android:id="@+id/settings_switch"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/text_share"
+            android:layout_width="300dp"
+            android:layout_height="61dp"
+            android:gravity="center_vertical"
+            android:text="Поделиться приложением"
+            android:textColor="#1A1B22"
+            android:textSize="15sp"
+            android:layout_marginLeft="16dp"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#ffffff"
+            android:background="#FFFFFF"
+            app:icon="@drawable/share_lightmode"
+            app:iconTint="#1A1B22"
+            style="@style/Widget.Material3.Button.IconButton"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/text_support"
+            android:layout_width="300dp"
+            android:layout_height="61dp"
+            android:gravity="center_vertical"
+            android:text="Написать в поддержку"
+            android:textColor="#1A1B22"
+            android:textSize="15sp"
+            android:layout_marginLeft="16dp"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#ffffff"
+            android:background="#FFFFFF"
+            app:icon="@drawable/support_lightmode"
+            app:iconTint="#1A1B22"
+            style="@style/Widget.Material3.Button.IconButton"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/text_eua"
+            android:layout_width="300dp"
+            android:layout_height="61dp"
+            android:gravity="center_vertical"
+            android:text="Пользовательское соглашение"
+            android:textColor="#1A1B22"
+            android:textSize="15sp"
+            android:layout_marginLeft="16dp"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#ffffff"
+            android:background="#FFFFFF"
+            app:icon="@drawable/eua_lightmode"
+            app:iconTint="#1A1B22"
+            style="@style/Widget.Material3.Button.IconButton"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

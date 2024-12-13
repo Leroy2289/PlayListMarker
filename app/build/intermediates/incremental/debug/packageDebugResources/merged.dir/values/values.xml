@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1A1B22</color>
+    <color name="darkBackground">#1A1B22</color>
+    <color name="lightBackground">#3772E7</color>
+    <color name="primaryBackground">#3772E7</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">PlaylistMaker</string>
+    <style name="Base.Theme.PlaylistMaker" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.PlaylistMaker" parent="Base.Theme.PlaylistMaker"/>
+</resources>
